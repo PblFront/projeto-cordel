@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url('img/header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px;
+    box-shadow: -1px 8px 10px 1px rgb(91, 94, 95);
+    color: white;
+    text-align: center;
+}
+header > p{
+    font-size: 16px;
+    padding: 0px;
+}
+h1{
+    font-family: 'Passion One', cursive;
+    font-size: 180px;
+    font-weight: bold;
+}
+a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(190, 255, 209);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    margin: 5px;
+    
+}
+p{
+    font-family: 'Sriracha', cursive;
+    font-size: 67px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 35px;
+}
+
+.texto2{
+    background-image: url('img/background001.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+.texto2 > p{
+    background-color: rgba(0, 0, 0, 0.541);
+    display: inline-block;
+    padding: 10px;
+    margin: 100px 0px 100px 35px
+}
+.texto4 > p{
+    padding-top: 00px;
+}
+.texto5 {
+    background-image: url('img/background002.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    box-shadow: inset
+}
+.texto5 > p{
+    background-color: rgba(0, 0, 0, 0.541);
+    display: inline-block;
+    padding: 10px;
+    margin: 100px 0px 100px 35px
+}
+.texto7 > p{
+    padding-top: 0px;
+}
+footer{
+    background-color: rgb(102, 102, 102);
+}
+footer > p{
+    padding: 5px;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+}
